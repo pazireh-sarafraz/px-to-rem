@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pixel to rem</title>
+</head>
+<body>
+    <script>
+        var pixel = Number(prompt("enter px"));
+        console.log(pxToRem(pixel));
+        
+        function pxToRem(pixel){
+            // 1px = 0.0625rem
+            return pixel*0.0625;
+        }
+    </script>
+</body>
+</html>
